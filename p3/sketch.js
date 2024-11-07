@@ -94,7 +94,7 @@ function mouseClicked() {
   page+=1
 
   if(page==3){
-    window.location.href ="/p4/index.html"
+    window.location.href ="./p4/index.html"
   }
 
   cols = page+1; // 列数
