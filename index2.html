@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+
+  <style>
+       #image-container {
+           display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 20%; 
+            height: auto; 
+            transform: translate(-50%, -50%);
+        }
+  </style>
+  <body>
+    <script src="sketch2.js"></script>
+  
+    <img id="image-container" src="./p2/b1.png" onmouseover="changeImage()" onmouseout="restoreImage()" onclick="handleClick()" alt="Image">
+
+
+    <script>
+              function changeImage() {
+            document.getElementById('image-container').src = './p2/b2.png'; 
+        }
+
+        function restoreImage() {
+            document.getElementById('image-container').src = './p2/b1.png'; 
+        }
+
+
+        function handleClick() {
+          window.location.href = "./p3/index.html";
+        }
+
+
+        setTimeout(function() {
+            document.getElementById('image-container').style.display = 'block';
+        }, 10000); 
+
+    </script>
+</body></html>
