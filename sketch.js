@@ -42,7 +42,7 @@ function draw() {
   
   translate (0,hy)
 
-  if(mouseX>width-400&&mouseX<width&&mouseY>12&&mouseY<323){
+  if(mouseX>width-400&&mouseX<width+200&&mouseY>12&&mouseY<323){
 
     image(imgs[1],10,10,width-10,(width-10)*2.35)
   }
@@ -72,7 +72,7 @@ function mouseClicked(){
 
   console.log(mouseX,mouseY)
 
-  if(mouseX>width-400&&mouseX<width&&mouseY>12&&mouseY<323){
+  if(mouseX>width-400&&mouseX<width+200&&mouseY>12&&mouseY<323){
 
     window.location.href = "index1.html";
   }
