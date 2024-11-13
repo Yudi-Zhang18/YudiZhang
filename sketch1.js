@@ -270,6 +270,7 @@ function  mouseClicked(){
 
   if(zm>60*12){
 
+  sessionStorage.setItem('flag', '1');
 
     window.location.href = "index2.html";
   }
