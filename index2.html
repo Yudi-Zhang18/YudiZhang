@@ -39,7 +39,9 @@
 
 
         setTimeout(function() {
+            if(sessionStorage.getItem('flag')){
             document.getElementById('image-container').style.display = 'block';
+            }
         }, 10000); 
 
     </script>
