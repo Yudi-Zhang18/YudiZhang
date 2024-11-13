@@ -55,7 +55,7 @@ function mouseClicked(){
 
   // if(dist(mouseX,mouseY,1340,152)<100){
 
-    window.location.href = "index2.html";
+    window.location.href = "../index2.html";
   // }
 }
 
