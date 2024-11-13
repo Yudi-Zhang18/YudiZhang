@@ -46,6 +46,19 @@ function setup() {
 
 }
 
+
+
+function mouseClicked(){
+
+
+  // console.log(mouseX,mouseY)
+
+  // if(dist(mouseX,mouseY,1340,152)<100){
+
+    window.location.href = "index2.html";
+  // }
+}
+
 function draw() {
   background(0);
 
