@@ -46,7 +46,7 @@ function draw() {
   
   translate (0,hy)
 
-  if(dist(mouseX,mouseY,1340,152)<100){
+  if(dist(mouseX,mouseY,1340,152)<1){
 
     image(imgs[1],10,10,width-10,(width-10)*2.35)
   }
