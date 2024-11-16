@@ -54,9 +54,9 @@ function mouseClicked(){
   // console.log(mouseX,mouseY)
 
   // if(dist(mouseX,mouseY,1340,152)<100){
-sessionStorage.setItem('flag', '0');
+// sessionStorage.setItem('flag', '0');
 
-    window.location.href = "../index2.html";
+//     window.location.href = "../index2.html";
   // }
 }
 
